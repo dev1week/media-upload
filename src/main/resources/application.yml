@@ -1,0 +1,14 @@
+#logging.level.org.apache.coyote.http11=debug
+
+
+file:
+  dir: /Users/gimhanju/study/upload/storage/
+
+server:
+  port: 9090
+
+spring:
+  data:
+    mongodb:
+      uri:
+        mongodb+srv://${id}:${password}@cluster0.nvoqnhw.mongodb.net/${tableName}?retryWrites=true&w=majority
